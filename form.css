@@ -1,0 +1,56 @@
+body{
+    position: relative;
+    background-image: url(creative-computer-business-black-technology-light-effect-powerpoint-background_3107e2a67a__960_540.avif);
+    height:1255px;
+    background-size:inherit;
+    background-color: aqua;
+    
+    
+}
+.maindiv{
+    background-image: url(Modern-Tech-Effect-Presentation-Background-1000x750.jpg);
+    background-color: rgb(223, 240, 240);
+    background-size:cover;
+    opacity:1.0;
+    border: 2px double white;
+   min-height: 100ph;
+   /* background: transparent; */
+}
+.headcont{
+    margin-top: 30px;
+    height: px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.datebox{
+ 
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: end;
+    padding-top:10px;
+    padding-bottom: 10px;
+    border-bottom: 2px dotted white;
+}
+.logo{
+    color: aliceblue;
+    display: flex;
+    justify-content: end;
+    height: 40px;
+    width: 150px;
+    margin:auto; 
+    margin-top: -40px;
+    margin-right:60px;
+    border-radius: 50%;
+     
+}
+.label{
+    color:rgba(7, 7, 7, 0.922);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.inputbox{
+    border: 1px solid gray;
+    border-radius: 5%;
+}
+

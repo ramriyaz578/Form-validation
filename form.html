@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDUREKA</title>
+    <link rel="stylesheet" href="form.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- background img -->
+    <div class="bgimg">
+        <div class="container maindiv rounded ">
+            <!-- topbox -->
+            <div class="headcont">
+                <h5 class="label">ENQUIRY FORM</h5>
+                <div class="logo">
+                    <img  src="download.png" alt="noimg" height="35" width="100PX">
+                </div>
+            </div>
+            <!-- date div -->
+            <div class="datebox">
+                <h3 class="label">DATE: </h3>
+                <input type="date" class="date">
+            </div>
+            <!-- persol informion -->
+            <div class="">
+                <h6 class="label">personal information:</h2>
+
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12 col-lg-4">
+                            <h6 class="label">Name:</h3>
+                                <input type="text" placeholder="enter name" class="form-control" required>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-lg-4">
+                            <h6 class="label">qualification:</h3>
+                                <input type="text" placeholder="enter qualification" class="form-control" required>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-lg-4">
+                            <h6 class="label">College Name:</h6>
+                                <input type="text" placeholder="enter your college" class="form-control" required>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-lg-4">
+                            <h6 class="label"> E-Mail:</h6>
+                                <input type="text" placeholder="enter your college" class="form-control" required>
+                        </div>
+                         <div class="col-md-4 col-sm-12 col-lg-4">
+                            <h6 class="label"> Mobile: </h6>
+                            <!-- <P class="label">(whatsapp mandatory)</P> -->
+                            <input type="text" placeholder="enter your college" class="form-control" required>
+                        
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-lg-4">
+                            <h6 class="label"> Alternate Mobile:</h6>
+                            <input type="text" placeholder="enter your college" class="form-control" required>
+                        </div>
+                        <div class="col--md-4 col-sm-12 col-lg-4">
+                            <h6 class="label">Year-Passout:</h3>
+                                <input type="text" list="year" placeholder="enter your pass-out year" class="form-control" required>
+                                <datalist id="year">
+                                    <option> select year</option>
+                                    <option>2023</option>
+                                    <option>2022</option>
+                                    <option>2021</option>
+                                    <option>2020</option>
+                                    <option>2019</option>
+                                    <option>2018</option>
+                                    <option>2017</option>
+                                    <option>2016</option>
+                                    <option>2015</option>
+                                    <option>others specify</option>
+                        </div>
+                    </div>
+            </div>
+            <hr>
+            <!-- address -->
+            <div class="row">
+                <div clas>
+                    <h6 class="label">Address For Communication:</h6>
+                    <textarea class="form-control" rows="3" ></textarea>
+                </div>
+                <div>
+                    <h6 class="label">Districts:</h6>
+                    <input type="search" placeholder="SELECT DISTRICT" class="form-control" list="city">
+                    <datalist id="city">
+                        <option> select locations</option>
+                        <option>Ariyalur</option>
+                        <option>Chennai</option>
+                        <option>Dharmapuri</option>
+                        <option>Dindigul</option>
+                        <option>Erode</option>
+                        <option>Kallakurichi</option>
+                        <option>Kanchipuram</option>
+                        <option>Kanniyakumari</option>
+                        <option>Karur</option>
+                        <option>Krishnagiri</option>
+                        <option>Madurai</option>
+                        <option>Nagapattinam</option>
+                        <option>Namakkal</option>
+                        <option>Nilgiris</option>
+                        <option>Perambalur</option>
+                        <option>Pudukkottai</option>
+                        <option>Ramanathapuram</option>
+                        <option>Salem</option>
+                        <option>Sivaganga</option>
+                        <option>Thanjavur</option>
+                        <option>Theni</option>
+                        <option>Thoothukudi</option>
+                        <option>Tiruchirappalli</option>
+                        <option>Tirunelveli</option>
+                        <option>Tiruppur</option>
+                        <option>Tiruvallur</option>
+                        <option>Tiruvannamalai</option>
+                        <option>Tiruvarur</option>
+                        <option>Vellore</option>
+                        <option>Viluppuram</option>
+                        <option>Virudhunagar</option>
+                    </datalist>
+                </div>
+
+                <!-- address -->
+                <div class="col-md-4 col-sm-12 col-lg-4">
+                    <h6 class="label">State:</h6>
+                    <input type="text" placeholder="enter your STATE" class="form-control" required>
+                </div>
+                <div class="col-md-4 col-sm-12 col-lg-4">
+                    <h6 class="label">Pincode:</h6>
+                    <input type="text" placeholder="enter your pincode" class="form-control" required>
+                </div>
+            </div>
+            <hr>
+             <!-- INTREST COURSE -->
+            <h6 class="label">Area Of Intrest ( in the order of preference)</h6>    
+                <div class="row">
+                    <div class="col-4 col-sm-4 col-lg-2">
+                        <input type="checkbox" class="form-check-input">
+                        <p for="checkbox1" class="label">Cloud</p>
+                    </div>
+                    <div class="col-4 col-sm-4 col-lg-2">
+                        <input type="checkbox" class="form-check-input">
+                        <p for="checkbox1" class="label">Fullstack Web Developement</p>
+                    </div>
+                    <div class="col-4 col-sm-4 col-lg-2">
+                        <input type="checkbox" class="form-check-input">
+                        <p for="checkbox1" class="label">Data Science</p>
+                    </div>
+                    <div class="col-4 col-sm-4 col-lg-2">
+                        <input type="checkbox" class="form-check-input">
+                        <p for="checkbox1" class="label">Others</p>
+                        <input type="text" class="form-control" placeholder="others specify">
+                    </div>
+                </div>
+                <hr>
+                <!-- how about edureka -->
+                <h6 class="label">HOW DID YOU GET ABOUT EDUREKA:</h6>
+                <div class="row">
+                    <div class="col-4 l-sm-2 col-lg-2">
+                        <input type="radio" name="intrest" id="#">
+                        <p class="label">From Friend</p>
+                    </div>
+                    <div class="col-4 l-sm-2 col-lg-2">
+                        <input type="radio" name="intrest" id="#">
+                        <p class="label">Paper Inserts</p>
+                    </div>
+                    <div class="col-4 l-sm-2 col-lg-2">
+                        <input type="radio" name="intrest" id="#">
+                        <h class="label">TV ADS</p>
+                    </div>
+                    <div class="col-4 l-sm-2 col-lg-">
+                        <input type="radio" name="intrest" id="#">
+                        <p class="label">Hoardings</p>
+                    </div>
+                    <div class="col-4 l-sm-2 col-lg-2">
+                        <input type="radio" name="intrest" id="#">
+                        <p class="label">Paper Ads</p>
+                    </div>
+                    <div class="col-4 l-sm-2 col-lg-">
+                        <input type="radio" name="intrest" id="#">
+                        <p class="label">Social Media</p>
+                        <input type="text" class="form-control" placeholder="please specify">
+                    </div>
+                </div>
+            <!-- button -->
+          <div class="input-group mb-3">
+            <button class="btn btn-outline-info form-control" type="button" id="btt"><h6>SUBMIT</h6></button>
+          </div>
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
